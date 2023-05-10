@@ -266,8 +266,8 @@
         "type": "INSERT",
         "hint": null,
         "title": "Complete the following code",
-        "user_input": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n  </body>\n</html>",
-        "snippet": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n  </body>\n</html>",
+        "user_input": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n  </body>\n</html>",
+        "snippet": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n    <div class=“   ”></div>\n  </body>\n</html>",
         "result": null,
         "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/7_vrn8tv.jpg",
         "answer": [

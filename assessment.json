@@ -192,7 +192,7 @@
         "snippet": ".box1{  \nbackground-color:red;                                           \nheight: 50px;\nwidth: 50px;\n  ;\n}",
         "result": null,
         "answer": [
-          ".box1{background-color:blue;height:50px;width:50px;border-radius:50px;}"
+          ".box1{background-color:blue;height:50px;width:50px;border-radius:50%;}"
         ],
         "completed": false
       },

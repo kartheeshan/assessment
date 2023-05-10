@@ -108,7 +108,7 @@
         "point": 1,
         "user_input": "div{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }\n\ndiv{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }",
         "snippet": "div{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }\n\ndiv{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }",
-        "image": null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683482533/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/3_b0n5ga.jpg",
         "type": "INSERT",
         "hint":null,
         "title": "Complete the following code",

@@ -1,673 +1,1387 @@
 [
-    {
-        "id": "assess1",
-        "totalPoints": 20,
-        "data":[
-            {
-                "id":1,
-                "point": "1",
-                "user_input": "\n<head>\n</head>\n<body>\n</body>\n</html",
-                "image": null,
-                "type": "INSERT",
-                "title": "Complete the following code",
-                "snippet": "\n<head>\n</head>\n<body>\n</body>\n</html",
-                "result": null,
-                "answer": "<html><head></head><body></body></html>",
-                "completed": false,
-                "tries": 0
-            },
-            {
-                "id":2,
-                "point": "2",
-                "user_input": "<html>\n\n</head>\n<body>\n\n</html>",
-                "image": null,
-                "type": "INSERT",
-                "title": "Complete the following code",
-                "snippet": "<html>\n\n</head>\n<body>\n\n</html>",
-                "result": null,
-                "answer": "<html><head></head><body></body></html>",
-                "completed": false,
-                "tries": 0
-            },
-            {
-                "id":3,
-                "point":"2",
-                "user_input":"<html>\n  <head>\n  </head>\n  <body>\n\n  </div>\n\n  </div>\n  </body>\n</html>",
-                "image": null,
-                "type": "INSERT",
-                "title": "Complete the following code",
-                "snippet":"<html>\n  <head>\n  </head>\n  <body>\n\n  </div>\n\n  </div>\n  </body>\n</html>",
-                "result": null,
-                "answer":"<html>/n <head>/n </head>/n <body>/n <div>/n </div>/n <div>/n </div>/n </body>/n </html>",
-                "completed":false,
-                "tries":0
-            },
-            {
-                "id":4,
-                "type": "FILL",
-                "tries": 0,
-                "point": "1",
-                "questionSet": [
-                    {
-                        "text": "In HTML, every open <>tag has a tag</> ",
-                        "user_input": "",
-                        "hint": "Look at the label",
-                        "answer": "close",
-                        "result": null
-                    }
-                ],
-                "completed": false,
-                "title": "Fill the blanks with correct answer",
-                "code": ""
-            },
-            {
-                "id":5,
-                "type": "FILL",
-                "tries": 0,
-                "point": "1",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683191185/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/1_ous7ny.jpg",
-                "questionSet":[
-                    {
-                        "text": "How many div sets do we need ? ",  
-                        "user_input": "",
-                        "hint": "Look at the label",
-                        "answer":"1",
-                        "result": null
+  {
+    "id": "assess1",
+    "totalPoints": 20,
+    "data": [
+      {
+        "id": 1,
+        "point": 1,
+        "user_input": "\n  <head>\n  </head>\n  <body>\n  </body>\n</html>",
+        "hint": null,
+        "image": null,
+        "type": "INSERT",
+        "title": "Complete the following code",
+        "snippet": "\n  <head>\n  </head>\n  <body>\n  </body>\n</html>",
+        "result": null,
+        "answer": ["<html><head></head><body></body></html>"],
+        "completed": false,
+        "tries": 0
+      },
 
-                    }
-                ],
-                "completed": false,
-                "title": "Fill the blanks with correct answer",
-                "code": ""
-            },
-            {
-                "id": 6,
-                "point": "2",
-                "user_input":"Div{\n  width:   ;\n  height:   ;\n  background-color:green;\n}",
-                "snippet":"Div{\n  width:   ;\n  height:   ;\n  background-color:green;\n}",
-                "image": null,
-                "type": "INSERT",
-                "title": "Complete the following code",
-                "answer": "Div{width:50px;height:50px;background-color:green;}",
-                "result" : null,
-                "completed": false,
-                "tries": 0
+      {
+        "id": 2,
+        "point": 2,
+        "user_input": "<html>\n  <head>\n  \n  <body>\n  \n</html>",
+        "hint": null,
+        "image": null,
+        "type": "INSERT",
+        "title": "Complete the following code",
+        "snippet": "<html>\n  <head>\n  \n  <body>\n  \n</html>",
+        "result": null,
+        "answer": ["<html><head></head><body></body></html>"],
+        "completed": false,
+        "tries": 0
+      },
 
-            },
-            {
-                "id":7,
-                "point":"1",
-                "user_input":"div{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }\n\ndiv{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }",
-                "snippet":"div{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }\n\ndiv{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }",
-                "image":null,
-                "type":"INSERT",
-                "title": "Complete the following code",
-                "answer": "10",
-                "result" : null,
-                "completed": false,
-                "tries": 0
+      {
+        "id": 3,
+        "point": 2,
+        "user_input": "<html>\n  <head>\n  </head>\n  <body>\n\n  </div>\n\n  </div>\n  </body>\n</html>",
+        "hint": null,
+        "image": null,
+        "type": "INSERT",
+        "title": "Complete the following code",
+        "snippet": "<html>\n  <head>\n  </head>\n  <body>\n\n  </div>\n\n  </div>\n  </body>\n</html>",
+        "result": null,
+        "answer": [
+          "<html><head></head><body><div></div><div></div></body></html>"
+        ],
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "id": 4,
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "image": null,
+        "questionSet": [
+          {
+            "text": "In HTML, every open <>tag has which tag</>? ",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "close",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": null
+      },
+      {
+        "id": 5,
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683482533/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/1_qoqbf9.jpg",
+        "questionSet": [
+          {
+            "text": "How many div sets do we need ? ",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "1",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": null
+      },
+      {
+        "id": 6,
+        "point": 2,
+        "user_input": "Div{\n  width:   ;\n  height:   ;\n  background-color:green;\n}",
+        "snippet": "Div{\n  width:   ;\n  height:   ;\n  background-color:green;\n}",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683482533/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/1_qoqbf9.jpg",
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "answer": ["Div{width:50px;height:50px;background-color:green;}"],
+        "result": null,
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "id": 7,
+        "point": 1,
+        "user_input": "div{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }\n\ndiv{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }",
+        "snippet": "div{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }\n\ndiv{\n   height:25px;\n   width: 25px;\n   background-color:blue;\n   margin: 20px;\n  }",
+        "image": null,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "answer": [
+          "div{height:25px;width:25px;background-color:blue;margin:10px;}div{height:25px;width:25px;background-color:blue;margin:10px;}"
+        ],
+        "result": null,
+        "completed": false,
+        "tries": 0
+      },
 
-            },
-            {
-                "id":8,
-                "point": "1",
-                "tries": 0,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683193375/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/3_xnmxg9.jpg",
-                "questionSet":[
-                    {
-                        "text": "If we increase the value of margin to 30px, will the gap between boxes (increase/decrease). ",  
-                        "user_input": "",
-                        "hint": "Look at the label",
-                        "answer":"increase",
-                        "result": null
+      {
+        "id": 8,
+        "point": 1,
+        "tries": 0,
+        "type": "FILL",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683482533/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/3_b0n5ga.jpg",
+        "questionSet": [
+          {
+            "text": "If we increase the value of margin to 30px, will the gap between boxes (increase/decrease)? ",
+            "user_input": "",
+            "hint":null,
+            "option": null,
+            "answer": "increase",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": null
+      },
+      {
+        "id": 9,
+        "point": 1,
+        "tries": 0,
+        "image": null,
+        "type": "FILL",
+        "questionSet": [
+          {
+            "text": "How many boxes will be seen in the output for the above html structure?",
+            "user_input": "",
+            "hint":[{
+                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683625793/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/52_e16fyt.jpg",
+                "text":null
+            }],
+            "option": null,
+            "answer": "6",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": "<html>\n  <head>\n  </head>\n  <body>\n    <div> </div>\n    <div> </div>\n    <div> </div>\n    <div> </div>\n    <div> </div>\n    <div> </div>\n  </body>\n</html>"
+      },
+      {
+        "id": 10,
+        "point": 3,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/4_wywk4l.jpg",
+        "user_input": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n  </body>\n</html>",
+        "snippet": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n  </body>\n</html>",
+        "result": null,
+        "answer": [
+          "<html><head></head><body><divclass=“circle1”></div><divclass=“box1”></div><divclass=“box2”></div><divclass=“box3”></div><divclass=“box4”></div><divclass=“circle2”></div></body></html>"
+        ],
+        "completed": false
+      },
 
-                    }
-                ],
-                "completed": false,
-                "title": "Fill the blanks with correct answer",
-                "code": ""
-            },
-            {
-                "id":9,
-                "point":"1",
-                "tries":0,
-                "image":null,
-                "questionSet":[
-                    {
-                        "text":"How many boxes will be seen in the output for the above html structure?",
-                        "user_input":"",
-                        "hint":"",
-                        "answer":"<html><head></head><body><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div></body></html>",
-                        "result":  null
-                        
-                    }
-                ],
-                "completed": false,
-                "title": "Fill the blanks with correct answer",
-                "code": "<html>\n  <head>\n  </head>\n  <body>\n    <div> </div>\n    <div> </div>\n    <div> </div>\n    <div> </div>\n    <div> </div>\n    <div> </div>\n  </body>\n</html>"
-            },
-            {
-                "id":10,
-                "point":"3",
-                "tries":0,
-                "type":"INSERT",
-                "title": "Complete the following code",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683200798/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/4_mqajxv.jpg",
-                "user_input":"<html>\n  <head>\n  </head>\n  <body>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n  </body>\n</html>",
-                "snippet":"<html>\n  <head>\n  </head>\n  <body>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n    <div class=“   ”> </div>\n  </body>\n</html>",
-                "result": null,
-                "answer": "<html><head></head><body><divclass=“circle1”></div><divclass=“box1”></div><divclass=“box2”></div><divclass=“box3”></div><divclass=“box4”></div><divclass=“circle2”></div></body></html>",
-                "completed": false
-                
-            },
-            {
-                "id":11,
-                "point":"2",
-                "tries":0,
-                "type":"INSERT",
-                "title": "Complete the following code",
-                "user_input":".box1{  \nbackground-color:red;                                           \nheight: 50px;\nwidth: 50px;\n  ;\n}",
-                "snippet":".box1{  \nbackground-color:red;                                           \nheight: 50px;\nwidth: 50px;\n  ;\n}",
-                "result": null,
-                "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683261817/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/10_psai70.jpg",
-                "answer": ".box1{background-color:blue;height:50px;width:50px;border-radius:50px;}",
-                "completed": false
-            },
-            {
-                "id":12,
-                "point":"3",
-                "tries":0,
-                "type":"INSERT",
-                "title":"Complete the following code",
-                "user_input":".shape1{\n  background-color: blue;\n  width:50px;\n  height:20px;\n  \n }\n.shape2{\n  background-color:blue;\n  width:20px;\n  height:20px;\n\n}\n.shape3{\n  background-color:red;\n  width:50px;\n  height:20px;\n \n}",
-                "snippet":".shape1{\n  background-color: blue;\n  width:50px;\n  height:20px;\n  \n }\n.shape2{\n  background-color:blue;\n  width:20px;\n  height:20px;\n\n}\n.shape3{\n  background-color:red;\n  width:50px;\n  height:20px;\n \n}",
-                "result": null,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683215981/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/5_alwjmn.jpg",
-                "answer":".shape1{background-color:blue;width:50px;height:20px;margin:10px}.shape2{background-color:blue;width:20px;height:20px;margin:10px}.shape3{background-color:red;width:50px;height:20px;margin:10px}",
-                "completed":false
+      {
+        "id": 11,
+        "point": 2,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/10_dvjxxf.jpg",
+        "user_input": ".box1{  \nbackground-color:red;                                           \nheight: 50px;\nwidth: 50px;\n  ;\n}",
+        "snippet": ".box1{  \nbackground-color:red;                                           \nheight: 50px;\nwidth: 50px;\n  ;\n}",
+        "result": null,
+        "answer": [
+          ".box1{background-color:blue;height:50px;width:50px;border-radius:50px;}"
+        ],
+        "completed": false
+      },
 
-            }
-                
-        ]
-    },
-    {
-        "id": "assess2",
-        "totalPoints": 15,
-        "data":[
-            {
-                "id":1,
-                "point":"3",
-                "tries":0,
-                "type":"FILL",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683217938/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/6_b4u677.jpg",
-                "questionSet": [
-                    {
-                      "text": "shape 1 is same as  ?",
-                      "user_input": "",
-                      "hint": "Look at the label",
-                      "answer": "shape7",
-                      "result": null
-                    },
-                    {
-                      "text": "shape 2 is same as  ?",
-                      "user_input": "",
-                      "hint": "Look at the label",
-                      "answer": "shape6",
-                      "result": null
-                    },
-                    {
-                        "text": "shape 3 is same as  ?",
-                        "user_input": "",
-                        "hint": "Look at the label",
-                        "answer": "shape4",
-                        "result": null
-                      }
-                  ],
-                  "completed": false,
-                  "title": "Identify the same units.",
-                  "code": ""
-            },
+      {
+        "id": 12,
+        "point": 3,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/5_ku5tjv.jpg",
+        "user_input": ".shape1{\n  background-color: blue;\n  width:50px;\n  height:20px;\n  \n }\n.shape2{\n  background-color:blue;\n  width:20px;\n  height:20px;\n\n}\n.shape3{\n  background-color:red;\n  width:50px;\n  height:20px;\n \n}",
+        "snippet": ".shape1{\n  background-color: blue;\n  width:50px;\n  height:20px;\n  \n }\n.shape2{\n  background-color:blue;\n  width:20px;\n  height:20px;\n\n}\n.shape3{\n  background-color:red;\n  width:50px;\n  height:20px;\n \n}",
+        "result": null,
+        "answer": [
+          ".shape1{background-color:blue;width:50px;height:20px;margin:10px}.shape2{background-color:blue;width:20px;height:20px;margin:10px}.shape3{background-color:red;width:50px;height:20px;margin:10px}"
+        ],
+        "completed": false
+      }
+    ]
+  },
 
+  {
+    "id": "assess2",
+    "totalPoints": 15,
+    "data": [
+      {
+        "id": 1,
+        "point": 3,
+        "tries": 0,
+        "type": "FILL",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/6_v03vcm.jpg",
+        "questionSet": [
+          {
+            "text": "shape 1 is same as  ?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "shape7",
+            "result": null
+          },
+          {
+            "text": "shape 2 is same as  ?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "shape6",
+            "result": null
+          },
+          {
+            "text": "shape 3 is same as  ?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "shape4",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Identify the same units.",
+        "code": null
+      },
 
-            {
-                "id":2,
-                "point":"3",
-                "tries":0,
-                "type":"INSERT",
-                "title":"Complete the following code",
-                "user_input":"<html>\n  <head>\n  </head>\n  <body>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n  </body>\n</html>",
-                "snippet":"<html>\n  <head>\n  </head>\n  <body>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n  </body>\n</html>",
-                "result":null,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683218079/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/7_pookhr.jpg",
-                "answer":"<html><head></head><body><divclass=“shape2”></div><divclass=“shape7”></div><divclass=“shape6”></div><divclass=“shape4”></div><divclass=“shape3”></div><divclass=“shape1”></div><divclass=“shape5”></div></body></html>",
-                "completed":false
+      {
+        "id": 2,
+        "point": 3,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "user_input": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n  </body>\n</html>",
+        "snippet": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n    <div class=   > </div>\n  </body>\n</html>",
+        "result": null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/7_vrn8tv.jpg",
+        "answer": [
+          "<html><head></head><body><divclass=“shape2”></div><divclass=“shape7”></div><divclass=“shape6”></div><divclass=“shape4”></div><divclass=“shape3”></div><divclass=“shape1”></div><divclass=“shape5”></div></body></html>"
+        ],
+        "completed": false
+      },
+      {
+        "id": 3,
+        "point": 1,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "user_input": ".boxt1{\n  width:50px;\n  height:50px;\n  background-color:red;\n  position:   ;\n  top:0px;\n  left:0px;\n}\n\n",
+        "snippet": ".boxt1{\n  width:50px;\n  height:50px;\n  background-color:red;\n  position:   ;\n  top:0px;\n  left:0px;\n}\n\n",
+        "result": null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/8_dowimh.jpg",
+        "answer": [
+          ".boxt1{width:50px;height:50px;background-color:red;position:absolute;top:0px;left:0px;}"
+        ],
+        "completed": false
+      },
 
-            },
-            {
-                "id":3,
-                "point":"1",
-                "tries":0,
-                "type":"INSERT",
-                "title":"Complete the following code",
-                "user_input":".boxt1{\n  width:50px;\n  height:50px;\n  background-color:red;\n  position:   ;\n  top:0px;\n  left:0px;\n}\n\n",
-                "snippet":".boxt1{\n  width:50px;\n  height:50px;\n  background-color:red;\n  position:   ;\n  top:0px;\n  left:0px;\n}\n\n",
-                "result":null,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683218260/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/8_t7bqdf.jpg",
-                "answer":".boxt1{width:50px;height:50px;background-color:red;position:absolute;top:0px;left:0px;}",
-                "completed":false
+      {
+        "id": 4,
+        "point": 1,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "user_input": ".box2{\n  width:30px;\n  height:30px;\n  background-color:blue;\n  position:absolute;\n  top:   ;\n  left:10px;\n}",
+        "snippet": ".box2{\n  width:30px;\n  height:30px;\n  background-color:blue;\n  position:absolute;\n  top:   ;\n  left:10px;\n}",
+        "result": null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/8_dowimh.jpg",
+        "answer": [
+          ".box2{width:30px;height:30px;background-color:blue;position:absolute;top:10px;left:10px;}"
+        ],
+        "completed": false
+      },
 
-            },
-            {
-                "id":4,
-                "point":"1",
-                "tries":0,
-                "type":"INSERT",
-                "title":"Complete the following code",
-                "user_input":".box2{\n  width:30px;\n  height:30px;\n  background-color:blue;\n  position:absolute;\n  top:   ;\n  left:10px;\n}",
-                "snippet":".box2{\n  width:30px;\n  height:30px;\n  background-color:blue;\n  position:absolute;\n  top:   ;\n  left:10px;\n}",
-                "result":null,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683218260/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/8_t7bqdf.jpg",
-                "answer":".box2{width:30px;height:30px;background-color:blue;position:absolute;top:10px;left:10px;}",
-                "completed":false
-            },
-          
-            {
-                "id":5,
-                "point":"3",
-                "tries":0,
-                "type":"INSERT",
-                "title":"Complete the following code",
-                "user_input":".box3{\n  width:10px;\n  height:10px;\n  background-color:yellow;\n  position:   ;\n  top:   ;\n  left:   ;\n}",
-                "snippet":".box3{\n  width:10px;\n  height:10px;\n  background-color:yellow;\n  position:   ;\n  top:   ;\n  left:   ;\n}",
-                "result":null,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683218260/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/8_t7bqdf.jpg",
-                "answer":".box3{width:10px;height:10px;background-color:yellow;position:absolute;top:20px;left:20px;}",
-                "completed":false
-            },
-            {
-                "id":6,
-                "point":"2",
-                "tries":0,
-                "type":"FILL",
-                "image":null,
-                "questionSet": [
-                    {
-                      "text": "The top of each units is increase by ",
-                      "user_input": "",
-                      "hint": "Count the blue colored boxes",
-                      "answer": "10px",
-                      "result": null
-                    }
-                  ],
-                  "completed": false,
-                  "title": "Fill the blanks with correct answer",
-                  "code": ""
-            },
-            {
-                "id":7,
-                "point":"1",
-                "tries":0,
-                "type":"INSERT",
-                "title":"Complete the following code",
-                "user_input":".box9{\n  width:50px;\n  height:50px;\n  background-color:red;\n  position:absolute;\n  top:   ;\n  left:   ;\n}",
-                "snippet":".box9{\n  width:50px;\n  height:50px;\n  background-color:red;\n  position:absolute;\n  top:   ;\n  left:   ;\n}",
-                "result":null,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683220660/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/9_up2knv.png",
-                "answer":".box9{width:50px;height:50px;background-color:red;position:absolute;top:60px;left:60px;}",
-                "completed":false
-            },
-            {
-                "id":8,
-                "point":"1",
-                "tries":0,
-                "type":"FILL",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683220660/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/9_up2knv.png",
-                "questionSet": [
-                    {
-                      "text": "top=___ ?",
-                      "user_input": "",
-                      "hint": "Count the pxel value",
-                      "answer": "40px",
-                      "result": null
-                    },
-                    {
-                        "text": "left=___ ?",
-                        "user_input": "",
-                        "hint": "Count the pxel value",
-                        "answer": "70px",
-                        "result": null
-                      }
-                    ],
-                "completed": false,
-                "title": "Guess the top and left based for box6.",
-                "code": ""
-                
-            }
+      {
+        "id": 5,
+        "point": 3,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "user_input": ".box3{\n  width:10px;\n  height:10px;\n  background-color:yellow;\n  position:   ;\n  top:   ;\n  left:   ;\n}",
+        "snippet": ".box3{\n  width:10px;\n  height:10px;\n  background-color:yellow;\n  position:   ;\n  top:   ;\n  left:   ;\n}",
+        "result": null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/8_dowimh.jpg",
+        "answer": [
+          ".box3{width:10px;height:10px;background-color:yellow;position:absolute;top:20px;left:20px;}"
+        ],
+        "completed": false
+      },
+      {
+        "id": 6,
+        "point": 2,
+        "tries": 0,
+        "type": "FILL",
+        "image": null,
+        "questionSet": [
+          {
+            "text": "The top of each units is increase by ",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "10px",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": null
+      },
+      {
+        "id": 7,
+        "point": 1,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "user_input": ".box9{\n  width:50px;\n  height:50px;\n  background-color:red;\n  position:absolute;\n  top:   ;\n  left:   ;\n}",
+        "snippet": ".box9{\n  width:50px;\n  height:50px;\n  background-color:red;\n  position:absolute;\n  top:   ;\n  left:   ;\n}",
+        "result": null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/9_dgfmgy.png",
+        "answer": [
+          ".box9{width:50px;height:50px;background-color:red;position:absolute;top:60px;left:60px;}"
+        ],
+        "completed": false
+      },
+      {
+        "id": 8,
+        "point": 1,
+        "tries": 0,
+        "type": "FILL",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/9_dgfmgy.png",
+        "questionSet": [
+          {
+            "text": "top= ?",
+            "user_input": "",
+            "hint":null,
+            "option": null,
+            "answer": "40px",
+            "result": null
+          },
+          {
+            "text": "left= ?",
+            "user_input": "",
+            "hint":null,
+            "option": null,
+            "answer": "70px",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Guess the top and left based for box6.",
+        "code": null
+      }
+    ]
+  },
 
-        ]
-    },
+  {
+    "id": "assess3",
+    "totalPoints": 10,
+    "data": [
+      {
+        "id": 1,
+        "point": 2,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/11_pc3ew3.jpg",
+        "user_input": "border-   -   -radius:50px;",
+        "snippet": "border-   -   -radius:50px;",
+        "answer": ["border-top-left-radius:50px;"],
+        "result": null,
+        "completed": false,
+        "title": "Identify the border-radius property of corner A."
+      },
+      {
+        "id": 2,
+        "point": 2,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/12_lt8h4l.jpg",
+        "user_input": "border-   -   -radius:50px;",
+        "snippet": "border-   -   -radius:50px;",
+        "answer": ["border-top-right-radius:50px;"],
+        "result": null,
+        "completed": false,
+        "title": "Identify the border-radius property of corner B."
+      },
+      {
+        "id": 3,
+        "point": 2,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522738/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/13_ywomtz.jpg",
+        "user_input": "border-   -   -radius:50px;",
+        "snippet": "border-   -   -radius:50px;",
+        "answer": ["border-bottom-right-radius:50px;"],
+        "result": null,
+        "completed": false,
+        "title": "Identify the border-radius property of corner C."
+      },
+      {
+        "id": 4,
+        "point": 2,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683522739/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/14_nuxiui.jpg",
+        "user_input": "border-   -   -radius:50px;",
+        "snippet": "border-   -   -radius:50px;",
+        "answer": ["border-bottom-left-radius:50px;"],
+        "result": null,
+        "completed": false,
+        "title": "Identify the border-radius property of corner D."
+      },
+      {
+        "id": 5,
+        "point": 1,
+        "tries": 0,
+        "type": "INSERT",
+        "hint":null,
+        "title": "Complete the following code",
+        "user_input": ".box1{\nbackground-color:blue;\n width:100px;\n height:100px;\n border-top-left-radius:50px;\n     ;\n}",
+        "snippet": ".box1{\nbackground-color:blue;\n width:100px;\n height:100px;\n border-top-left-radius:50px;\n     ;\n}",
+        "result": null,
+        "image": null,
+        "answer": [
+          ".box1{background-color:blue;width:100px;height:100px;border-top-left-radius:50px;border-bottom-right-radius:50px;}"
+        ],
+        "completed": false
+      },
+      {
+        "id": 6,
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "image": null,
+        "questionSet": [
+          {
+            "text": "What is the width of box1?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "100px",
+            "result": null
+          },
+          {
+            "text": "What is height of the box? ",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "100px",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": null
+      }
+    ]
+  },
 
+  {
+    "id": "assess4",
+    "totalPoints": 15,
+    "data": [
+      {
+        "id": 1,
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526747/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/16_ks3bbi.jpg",
+        "questionSet": [
+          {
+            "text": "What are two shapes that we have?",
+            "user_input": "",
+            "hint":[{
+                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/42_kqrgi7.jpg",
+                "text":null
+            }],
+            "option": null,
+            "answer": ["box", "square", "circle"],
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": null
+      },
+      {
+        "id": 2,
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/17_o6bovo.jpg",
+        "questionSet": [
+          {
+            "text": "What will the position of the box?",
+            "user_input": "",
+            "option": null,
+            "hint": null,
+            "answer": ".box{position:relative;}",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": ".box{\n  \n  position:   ;\n}"
+      },
+      {
+        "id": 3,
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/17_o6bovo.jpg",
+        "questionSet": [
+          {
+            "text": "What will the position of the circle?",
+            "user_input": "",
+            "option": null,
+            "hint":null,
+            "answer": ".circle{position:absolute;}",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": ".circle{\n\n  position:   ;\n  }"
+      },
+      {
+        "id": 4,
+        "type": "INSERT",
+        "tries": 0,
+        "hint":null,
+        "point": 4,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538776/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/41_tkkrcg.jpg",
+        "title": "Simply the following code for the below image:",
+        "snippet": ".   {\n\n}\n.   {\n\n}\n.   {\n\n}\n.   {\n\n}",
+        "user_input": ".   {\n\n}\n.   {\n\n}\n.   {\n\n}\n.   {\n\n}",
+        "result": null,
+        "answer": [
+          ".box{}.circle{}.Color1{}.Color2{}",
+          ".shape1{}.shape2{}.Color1{}.Color2{}",
+          ".square{}.circle{}.Color1{}.Color2{}"
+        ],
+        "completed": false
+      },
+      {
+        "id": 5,
+        "type": "FILL",
+        "tries": 0,
+        "point": 2,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/18_bwo4hp.jpg",
+        "questionSet": [
+          {
+            "text": " What property will make the box come side by side?",
+            "user_input": "",
+            "option": null,
+            "hint":null,
+            "answer": "display: inline-block;",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      },
+      {
+        "id": 6,
+        "type": "FILL",
+        "tries": 0,
+        "point": 4,
+        "image": null,
+        "questionSet": [
+          {
+            "text": "How many classes are there in code?",
+            "user_input": "",
+            "option": null,
+            "hint":null,
+            "answer": ["colorA", "colorB", "color1", "color2"],
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=“circleA color1”> </div>\n    <div class=“circleB color2”> </div>\n  </body>\n</html>"
+      },
+      {
+        "id": 7,
+        "type": "FILL",
+        "tries": 0,
+        "point": 2,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/19_l0tacw.jpg",
+        "questionSet": [
+          {
+            "text": "where should I hover to change the color?",
+            "user_input": "",
+            "option": null,
+            "hint":null,
+            "answer": "circle",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      }
+    ]
+  },
 
+  {
+    "id": "assess5",
+    "totalPoints": 10,
+    "data": [
+      {
+        "id": 1,
+        "point": 2,
+        "user_input": ".box1{  \n  background-color:red;                                           \n  height: 50px;\n  width: 50px;\n     ;\n  }",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/20_kcgnra.jpg",
+        "type": "INSERT",
+        "hint":null,
+        "tries": 0,
+        "title": "Type the property in each unit in order to convert figure A ",
+        "snippet": ".box1{  \n  background-color:red;                                           \n  height: 50px;\n  width: 50px;\n     ;\n  }",
+        "result": null,
+        "answer": [
+          ".box1{background-color:purple;height:50px;width:50px;transform:rotate(45deg);}"
+        ],
+        "completed": false
+      },
+      {
+        "id": 2,
+        "point": 3,
+        "user_input": ".box1{  \n  background-color:   ;                                           \n  height: 50px;\n  width: 50px;\n  transform:rotate(   );\n     ;\n  }",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/21_quyx8z.jpg",
+        "type": "INSERT",
+        "tries": 0,
+        "hint":null,
+        "title": "Type the property in each unit in order to convert figure B ",
+        "snippet": ".box1{  \n  background-color:   ;                                           \n  height: 50px;\n  width: 50px;\n  transform:rotate(   );\n     ;\n  }",
+        "result": null,
+        "answer": [
+          ".box1{background-color:transparent;height:50px;width:50px;transform:rotate(45deg);Border: 2px solid red;}"
+        ],
+        "completed": false
+      },
+      {
+        "id": 3,
+        "point": 1,
+        "image": null,
+        "tries": 0,
+        "type": "FILL",
+        "questionSet": [
+          {
+            "text": "position: __________ calculates the position from parent div, not the body. ",
+            "user_input": "",
+            "result": null,
+            "option": null,
+            "answer": "relative",
+            "hint":null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": null
+      },
+      {
+        "id": 4,
+        "point": 1,
+        "type": "FILL",
+        "tries": 0,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/22_qxjiil.jpg",
+        "questionSet": [
+          {
+            "text": "What will the position of the box be ?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "relative",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": ".box{\n\t\n  position:   ;\n}"
+      },
+      {
+        "id": 5,
+        "point": 1,
+        "type": "FILL",
+        "tries": 0,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/22_qxjiil.jpg",
+        "questionSet": [
+          {
+            "text": "What will the position of the circle be ?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "absolute",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": ".diamond{\n\t   \n   position:   ;\n  }"
+      },
+      {
+        "id": 6,
+        "point": 1,
+        "type": "FILL",
+        "tries": 0,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/23_gvdu8e.jpg",
+        "questionSet": [
+          {
+            "text": "The box will be changed into diamond when we hover over?",
+            "user_input": "",
+            "hint": null,
+            "option": ["box", "body", "diamond"],
+            "answer": "body",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "Fill the blanks with correct answer",
+        "code": null
+      },
+      {
+        "id": 7,
+        "point": 1,
+        "type": "FILL",
+        "tries": 0,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683543406/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/48_zj4eid.png",
+        "questionSet": [
+          {
+            "text": "Which is the parent class of the circle?",
+            "user_input": "",
+            "hint": null,
+            "option": ["circle", "body", "box"],
+            "answer": "box",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "choose the correct answer",
+        "code": null
+      }
+    ]
+  },
 
-    {
-        "id": "assess3",
-        "totalPoints": 10,
-        "data":[
-            {
-                "id":1,
-                "point":"2",
-                "tries":0,
-                "type":"INSERT",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683267620/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/11_f2tdck.jpg",         
-                "user_input": "border-   -   -radius:50px;",
-                "snippet":"border-   -   -radius:50px;",
-                "answer": "border-top-left-radius:50px;",
-                "result": null,
-                "completed": false,
-                "title": "Identify the border-radius property of corner A."
-    
-            },
-            {
-                "id":2,
-                "point":"2",
-                "tries":0,
-                "type":"INSERT",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683268922/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/12_mqyx5q.jpg",         
-                "user_input": "border-   -   -radius:50px;",
-                "snippet":"border-   -   -radius:50px;",
-                "answer": "border-top-right-radius:50px;",
-                "result": null,
-                "completed": false,
-                "title": "Identify the border-radius property of corner B."
-    
-            },
-            {
-                "id":3,
-                "point":"2",
-                "tries":0,
-                "type":"INSERT",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683268922/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/13_u4i2q1.jpg",         
-                "user_input": "border-   -   -radius:50px;",
-                "snippet":"border-   -   -radius:50px;",
-                "answer": "border-bottom-right-radius:50px;",
-                "result": null,
-                "completed": false,
-                "title": "Identify the border-radius property of corner C."
-    
-            },
-            {
-                "id":4,
-                "point":"2",
-                "tries":0,
-                "type":"INSERT",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683268922/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/14_spz0ii.jpg",
-                "user_input": "border-   -   -radius:50px;",
-                "snippet":"border-   -   -radius:50px;",
-                "answer": "border-bottom-left-radius:50px;",
-                "result": null,
-                "completed": false,
-                "title": "Identify the border-radius property of corner D."
-            },
-            {
-                "id":5,
-                "point":"1",
-                "tries":0,
-                "type":"INSERT",
-                "title":"Complete the following code",
-                "user_input":".box1{\nbackground-color:blue;\n width:100px;\n height:100px;\n border-top-left-radius:50px;\n     ;\n}",
-                "snippet":".box1{\nbackground-color:blue;\n width:100px;\n height:100px;\n border-top-left-radius:50px;\n     ;\n}",
-                "result":null,
-                "image":null,
-                "answer":".box1{background-color:blue;width:100px;height:100px;border-top-left-radius:50px;border-bottom-right-radius:50px;}",
-                "completed":false 
-            },
-            {
-                "id": 6,
-                "type": "FILL",
-                "tries": 0,
-                "point": "1",
-                "image": null,
-                "questionSet": [
-                  {
-                    "text": "What is the width of box1? width: ___",
-                    "user_input": "",
-                    "hint": "Look at the label",
-                    "answer": "100px",
-                    "result": null
-                  },
-                  {
-                    "text": "What is height of the box? height: ___",
-                    "user_input": "",
-                    "hint": "Look at the label",
-                    "answer": "100px",
-                    "result": null
-                  }
-                ],
-                "completed": false,
-                "title": "Fill the blanks with correct answer",
-                "code": ""
-              }
-        ]
-    },
+  {
+    "id": "assess6",
+    "totalPoints": 10,
+    "data": [
+      {
+        "id": 1,
+        "point": 2,
+        "type": "FILL",
+        "tries": 0,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683526748/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/24_radzgv.jpg",
+        "questionSet": [
+          {
+            "text": "How can we resize without increasing the height of the box?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "transform:scaleY()",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "choose the correct answer",
+        "code": null
+      },
 
+      {
+        "id": 2,
+        "type": "FILL",
+        "point": 3,
+        "tries": 0,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538709/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/25_p6rchd.jpg",
+        "questionSet": [
+          {
+            "text": "How many colors does the diamond have?",
+            "user_input": "",
+            "hint": null,
+            "option": ["1", "2", "3"],
+            "answer": "3",
+            "result": null
+          },
+          {
+            "text": "What property will we give to add two or more colors?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": " background-image:linear-gradient();",
+            "result": null
+          },
+          {
+            "text": "How many colors does the circle have?",
+            "user_input": "",
+            "hint": null,
+            "option": ["1", "2", "3"],
+            "answer": "2",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "choose the correct answer",
+        "code": null
+      },
+      {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683287811/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/26_polaik.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 2,
+        "questionSet": [
+          {
+            "text": "What is the Color1?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "blue",
+            "result": null
+          },
+          {
+            "text": "What is the Color1?",
+            "user_input": "",
+            "hint": null,
+            "answer": "pink",
+            "option":null,
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "what will be the color of the circle when hovered",
+        "code": null
+      },
+      {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538710/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/27_chnbrw.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "questionSet": [
+          {
+            "text": "Which two boxes are changing position in animation?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": ["b2", "b4"],
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "choose the correct answer",
+        "code": null
+      },
+      {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683545099/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/43_imb3do.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "questionSet": [
+          {
+            "text": "In which  class should we type animation: move1?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "b2",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      },
+      {
+        "id": 6,
+        "image": null,
+        "point": 1,
+        "tries": 0,
+        "type": "FILL",
+        "questionSet": [
+          {
+            "text": "Type the animation property for b4 for a duration of 10 seconds with an infinite loop?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": ".b4{animation:move2 10s infinite}",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": ".b4{\n   \n   \n}"
+      }
+    ]
+  },
+  {
+    "id": "assess7",
+    "totalPoints": 20,
+    "data": [
+      {
+        "id": 1,
+        "point": 2,
+        "user_input": "<img  src=“   ” >",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538710/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/28_mw5ixu.jpg",
+        "type": "INSERT",
+        "hint": null,
+        "tries": 0,
+        "title": "Complete the following code",
+        "snippet": "<img  src=“   ” >",
+        "result": null,
+        "answer": ["<imgsrc=“supermario.html”>"],
+        "completed": false
+      },
+      {
+        "id": 2,
+        "point": 2,
+        "user_input": "img{\n  width:   px;\n  Height:   px;\n}",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538710/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/28_mw5ixu.jpg",
+        "type": "INSERT",
+        "hint": null,
+        "tries": 0,
+        "title": "Complete the CSS code:",
+        "snippet": "img{\n  width:   px;\n  Height:   px;\n}",
+        "result": null,
+        "answer": ["img{width:200px;Height:100px;}"],
+        "completed": false
+      },
+      {
+        "id": 3,
+        "point": 8,
+        "user_input": "<html>\n  <head>\n    <style>\n      .img{\n        width:300px;\n        height:100px;\n        position:relative\n      }\n    </style>\n  </head>\n  <body>\n    <div class=“img1” > \n      <img src= “mario.html;”>\n    </div>\n    <div class=“img2” > \n      <img scrs= “ lulgi+green_cap.hspt”>\n    </div>\n    <div class=“img3” > \n      <img src= “peach.web”>\n    <div>\n    <div class=“img4” > \n      <img src=Donkey?kong?Donkey-kong.html”></img>\n    </div>\n  </body>\n</html>",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538710/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/29_lqyvwa.jpg",
+        "type": "INSERT",
+        "hint": null,
+        "tries": 0,
+        "title": "Complete the CSS code:",
+        "snippet": "<html>\n  <head>\n    <style>\n      .img{\n        width:300px;\n        height:100px;\n        position:relative\n      }\n    </style>\n  </head>\n  <body>\n    <div class=“img1” > \n      <img src= “mario.html;”>\n    </div>\n    <div class=“img2” > \n      <img scrs= “ lulgi+green_cap.hspt”>\n    </div>\n    <div class=“img3” > \n      <img src= “peach.web”>\n    <div>\n    <div class=“img4” > \n      <img src=Donkey?kong?Donkey-kong.html”></img>\n    </div>\n  </body>\n</html>",
+        "result": null,
+        "answer": [
+          "<html><head><style>.img{width:300px;height:100px;position:relative}</style></head><body><divclass=“img1”><imgsrc=“mario.html”></div><divclass=“img2”><imgsrc=“lulgi+green_cap.hspt”></div><divclass=“img3”><imgsrc=“peach.webp”></div><divclass=“img4”><imgsrc=Donkey?kong?Donkey-kong.html”></div></body></html>"
+        ],
+        "completed": false
+      },
+      {
+        "id": 4,
+        "point": 4,
+        "user_input": "img{\n  width:   px;\n  height:   px;\n  position:relative;\n}\n.img1{\n  left:   px;\n}\n.img2{\n  left:   px;\n}\n.img3{\n  left:   px;\n}\n.img4{\n  left:   px;\n}",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538710/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/30_pmeusv.jpg",
+        "type": "INSERT",
+        "hint": null,
+        "tries": 0,
+        "title": "Complete and correct the CSS code",
+        "snippet": "img{\n  width:   px;\n  height:   px;\n  position:relative;\n}\n.img1{\n  left:   px;\n}\n.img2{\n  left:   px;\n}\n.img3{\n  left:   px;\n}\n.img4{\n  left:   px;\n}",
+        "result": null,
+        "answer": [
+          "img{width:50px;height:75px;position:absolute;top:20px}.img1{left:100px;}.img2{left:200px;}.img3{left:300px;}.img4{left:400px;}"
+        ],
+        "completed": false
+      },
+      {
+        "id": 5,
+        "point": 3,
+        "user_input": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=“col1”> \n      <div class=“shape1”> </div>\n      <div class=“shape2”> </div>\n      <div class=“shape3”> </div>\n      <div class=“shape4”> </div>\n      <div class=“shape5”> </div>\n    </div>\n    <div class=“col2”> \n      <div class=“shape1”> </div>\n      <div class=“shape2”> </div>\n      <div class=“shape3”>\n        <img>\n      </div>\n      <div class=“shape4”> </div>\n      <div class=“shape5”> </div>\n    </div>\n    <div class=“col3” > \n      <div class=“shape1”> </div>\n      <div class=“shape2”> </div>\n      <div class=“shape3”> </div>\n      <div class=“shape4”> </div>\n      <div class=“shape5”> </div>\n    </div>\n  </body>\n</html>",
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538710/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/31_vcyoxp.jpg",
+        "type": "INSERT",
+        "hint": null,
+        "tries": 0,
+        "title": " Where will we type <img src=”mickey.png”> in the given code.",
+        "snippet": "<html>\n  <head>\n  </head>\n  <body>\n    <div class=“col1”> \n      <div class=“shape1”> </div>\n      <div class=“shape2”> </div>\n      <div class=“shape3”> </div>\n      <div class=“shape4”> </div>\n      <div class=“shape5”> </div>\n    </div>\n    <div class=“col2”> \n      <div class=“shape1”> </div>\n      <div class=“shape2”> </div>\n      <div class=“shape3”>\n        <img>\n      </div>\n      <div class=“shape4”> </div>\n      <div class=“shape5”> </div>\n    </div>\n    <div class=“col3” > \n      <div class=“shape1”> </div>\n      <div class=“shape2”> </div>\n      <div class=“shape3”> </div>\n      <div class=“shape4”> </div>\n      <div class=“shape5”> </div>\n    </div>\n  </body>\n</html>",
+        "result": null,
+        "answer": [
+          "<html><head></head><body><divclass=“col1”><divclass=“shape1”></div><divclass=“shape2”></div><divclass=“shape3”></div><divclass=“shape4”></div><divclass=“shape5”></div></div><divclass=“col2”><divclass=“shape1”></div><divclass=“shape2”></div><divclass=“shape3”><imgsrc=”mickey.png”></div><divclass=“shape4”></div><divclass=“shape5”></div></div><divclass=“col3”><divclass=“shape1”></div><divclass=“shape2”></div><divclass=“shape3”></div><divclass=“shape4”></div><divclass=“shape5”></div></div></body></html>"
+        ],
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": "assess8",
+    "point": 10,
+    "data": [
+      {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538710/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/32_zonfxd.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 2,
+        "questionSet": [
+          {
+            "text": "What property will make the box come side by side?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "float:left;",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      },
+      {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683612691/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/44_o6oatf.jpg",
+        "type": "FILL",
+        "point": 5,
+        "tries": 0,
+        "questionSet": [
+          {
+            "text": "how many percentages do we have?",
+            "user_input": "",
+            "hint":null,
+            "option": null,
+            "answer": "6",
+            "result": null
+          },
+          {
+            "text": "what is the top and left at 60% of move1?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": ["70px", "90px"],
+            "result": null
+          },
+          {
+            "text": "what are the two degrees we have for keyframe move2?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": ["90deg", "45deg"],
+            "result": null
+          },
+          {
+            "text": "Which two percent has the same value?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": ["0%", "100%"],
+            "result": null
+          },
+          {
+            "text": "where will we type animation:color1?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "cicle",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      },
+      {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683543406/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/48_zj4eid.png",
+        "type": "FILL",
+        "tries": 0,
+        "point": 2,
+        "questionSet": [
+          {
+            "text": "What does the highlighted portion of the html structure have in common?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "box",
+            "result": null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      },
+      {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538711/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/37_kzfm5k.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "questionSet": [
+          {
+            "text": "How many columns does the design have?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "6",
+            "result":null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      }
+    ]
+  },
 
+  {
+    "id": "assess9",
+    "point": 11,
+    "data": [
+      {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538711/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/35_dxoqn0.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "questionSet": [
+          {
+            "text": "The image below is rotated once, find the direction of rotation?",
+            "user_input": "",
+            "hint": null,
+            "option": ["Clockwise", "Anti-clockwise"],
+            "answer": "Clockwise",
+            "result":null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      },
+      {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538711/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/36_psqjl7.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "questionSet": [
+          {
+            "text": "The image below is rotated once, find the direction of rotation?",
+            "user_input": "",
+            "hint": null,
+            "option": ["Clockwise", "Anti-clockwise"],
+            "answer": "Anti-clockwise",
+            "result":null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      },
 
-    {
-        "id": "assess4",
-        "totalPoints": 15,
-        "data":[
-            {
-                "id": 1,
-                "type": "FILL",
-                "tries": 0,
-                "point": "1",
-                "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683271511/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/16_c8vx9t.jpg",
-                "questionSet": [
-                  {
-                    "text": "What are two shapes that we have?",
-                    "user_input": "",
-                    "hint": "Look at the label",
-                    "answer": ["box","square","circle"],
-                    "result": null
-                  }
-                ],
-                "completed": false,
-                "title": "Fill the blanks with correct answer",
-                "code": ""   
-            },
-            {
-                "id":2,
-                "type":"FILL",
-                "tries":0,
-                "point":1,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683271511/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/17_pouqwc.jpg",
-                "questionSet":[
-                    {
-                        "text":"What will the position of the box?",
-                        "user_input":"",
-                        "answer":".box{position:relative;}",
-                        "result": null
+      {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683612691/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/45_dgnqcz.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 3,
+        "questionSet": [
+          {
+            "text": "What is the degree of rotation at 45%?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "225deg",
+            "result":null
+          },
+          {
+            "text": "What is the degree of rotation at 75%?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "315deg",
+            "result":null
+          },
+          {
+            "text": "How much has the degree increased at each percent?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "45deg (or) 45",
+            "result":null
+          }
+        ],
+        "completed": false,
+        "title": "From the table below, answers the following:",
+        "code": null
+      },
+      {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538711/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/37_kzfm5k.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "questionSet": [
+          {
+            "text": "How many rows does the design have?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "4",
+            "result":null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      },
+      {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538711/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/39_vfmvq1.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "questionSet": [
+          {
+            "text": "What should we type in .row if I want output like above.",
+            "user_input": "",
+            "hint":null,
+            "option": null,
+            "answer": " clear:both;",
+            "result":null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      },
+      {
+        "id": 6,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538711/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/40_a0basl.jpg",
+        "point": 3,
+        "user_input": "Mainouter\n  Outer1\n    square b1\n  Outer2\n    diamond b1 \n\tbox b2\n  Outer1\n    diamond b4",
+        "type": "INSERT",
+        "tries": 0,
+        "hint":null,
+        "title": "Correct the HTML structure based on the design",
+        "snippet": "Mainouter\n  Outer1\n    square b1\n  Outer2\n    diamond b1 \n\tbox b2\n  Outer1\n    diamond b4",
+        "result": null,
+        "answer": [
+          "MainouterOuter1squareb1Outer2diamondb2squareb3Outer3diamondb4"
+        ],
+        "completed": false
+      },
 
-                    }
-                ],
-                "completed":false,
-                "title":"",
-                "code":".box{\n  \n  position:   ;\n}"
-            },
-            {
-                "id":3,
-                "type":"fill",
-                "tries":0,
-                "point":1,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683271511/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/17_pouqwc.jpg",
-                "questionSet":[
-                    {
-                        "text":"What will the position of the circle?",
-                        "user_input":"",
-                        "answer":".circle{position:absolute;}",
-                        "result": null
+      {
+        "id": 7,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683538711/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/40_a0basl.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 1,
+        "questionSet": [
+          {
+            "questionSet": " What position do we type for outer1, 2 and 3?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "absolute",
+            "result":null
+          }
+        ],
+        "completed": false,
+        "title": "",
+        "code": null
+      }
+    ]
+  },
 
-                    }
-                ],
-                "completed":false,
-                "title":"",
-                "code":".circle{\n\n  position:   ;\n  }"
-            },
-            {
+  {
+    "id": "assess10",
+    "point": 10,
+    "data": [
+      {
+        "1d": 1,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683615585/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/49_r81hhn.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 2,
+        "questionSet": [
+          {
+            "text": "Which colored box has the greatest z-index?",
+            "user_input": "",
+            "hint": null,
+            "option": ["Pink", "violet", "red"],
+            "answer": "Pink",
+            "result":null
+          },
+          {
+            "text": "How many classes do we need in css?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "13",
+            "result":null
+          }
+        ],
+        "completed": false,
+        "title": "Answer the following based on the image below:",
+        "code": null
+      },
+      {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683622941/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/51_lpdepv.jpg",
+        "type": "FILL",
+        "tries": 0,
+        "point": 3,
+        "questionSet": [
+          {
+            "text": "Which keyframes use the property transform:rotate?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "move1",
+            "result":null
+          },
+          {
+            "text": "At what percentage of move3, the circle's  top will become 70px?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": "50%",
+            "result":null
+          },
+          {
+            "text": " In which  class should I type animation: move1?",
+            "user_input": "",
+            "hint": null,
+            "option": null,
+            "answer": " circleA",
+            "result":null
+          }
+        ],
+        "completed": false,
+        "title": "Answer the following based on the table below:",
+        "code": null
+      },
 
-                "id":4,
-                "type":"FILL",
-                "tries":"",
-                "point":3
-
-            },
-            {
-                "id":5,
-                "type":"fill",
-                "tries":0,
-                "point":2,
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683278165/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/18_dhwwfa.jpg",
-                "questionSet":[
-                    {
-                        "text":" What property will make the box come side by side?",
-                        "user_input":"",
-                        "answer":"display: inline-block;",
-                        "result": null
-                        
-                    }
-                ],
-                "completed":false,
-                "title":"",
-                "code":""
-            },
-            {
-
-            },
-            {
-
-            }
-        ]
-    },
-    {
-        "id": "assess5",
-        "totalPoints": 10,
-        "data":[
-            {
-                "id": 1,
-                "point": 2,
-                "user_input": ".box1{  \n  background-color:red;                                           \n  height: 50px;\n  width: 50px;\n     ;\n  }",
-                "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683282788/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/20_b21sb4.jpg",
-                "type": "INSERT",
-                "tries": 0,
-                "title": "Type the property in each unit in order to convert figure A ",
-                "snippet": ".box1{  \n  background-color:red;                                           \n  height: 50px;\n  width: 50px;\n     ;\n  }",
-                "result": null,
-                "answer": ".box1{background-color:purple;height:50px;width:50px;transform:rotate(45deg);}",
-                "completed": false
-            },
-            {
-                "id":2,
-                "point": 3,
-                "user_input": ".box1{  \n  background-color:   ;                                           \n  height: 50px;\n  width: 50px;\n  transform:rotate(   );\n     ;\n  }",
-                "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683282788/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/21_dz8m5w.jpg",
-                "type": "INSERT",
-                "tries": 0,
-                "title": "Type the property in each unit in order to convert figure B ",
-                "snippet": ".box1{  \n  background-color:   ;                                           \n  height: 50px;\n  width: 50px;\n  transform:rotate(   );\n     ;\n  }",
-                "result": null,
-                "answer": ".box1{background-color:transparent;height:50px;width:50px;transform:rotate(45deg);Border: 2px solid red;}",
-                "completed": false
-            },
-            {
-                "id":3,
-                "point":1
-            },
-            {
-                "id":4,
-                "point":1,
-                "type": "FILL",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683282788/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/22_njzbci.jpg",
-                "questionSet":[
-                    {
-                        "text": "What will the position of the box be ?",
-                        "user_input": "",
-                        "hint": "Look at the label",
-                        "answer": "relative",
-                        "result": null
-                    }
-                ],
-                "completed": false,
-                "title": "Fill the blanks with correct answer",
-                "code": ".box{\n\t\n  position:   ;\n}"
-
-            },
-            {
-                "id":5,
-                "point":1,
-                "type": "FILL",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683282788/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/22_njzbci.jpg",
-                "questionSet":[
-                    {
-                        "text": "What will the position of the circle be ?",
-                        "user_input": "",
-                        "hint": "Look at the label",
-                        "answer": "absolute",
-                        "result": null
-                    }
-                ],
-                "completed": false,
-                "title": "Fill the blanks with correct answer",
-                "code": ".diamond{\n\t   \n   position:   ;\n  }"
-
-            },
-            {
-                "id":6,
-                "point":1,
-                "type": "FILL",
-                "image":"https://res.cloudinary.com/dtblxtxtf/image/upload/v1683286109/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/23_o8rzwo.jpg",
-                "questionSet":[
-                    {
-                        "text": "The box will be changed into diamond when we hover over?",
-                        "user_input": "",
-                        "hint": "Look at the label",
-                        "answer": "body",
-                        "result": null
-                    }
-                ],
-                "completed": false,
-                "title": "Fill the blanks with correct answer",
-                "code": ""
-
-            },
-            {
-                "id":7,
-                "point":1,
-                "type": "FILL",
-                "image":null,
-                "questionSet":[
-                    {
-                        "text": "Which is the parent class of the circle?",
-                        "user_input": "",
-                        "hint": "Look at the label",
-                        "answer": "box",
-                        "result": null
-                    }
-                ],
-                "completed": false,
-                "title": "choose the correct answer",
-                "code": ""  
-
-            }
-            
-        ]
-    },
-    {
-        "id": "assess6",
-        "totalPoints": 10,
-        "data":[
-            {
-
-            }
-        ]
-    }
+      {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dtblxtxtf/image/upload/v1683615585/summer%20camp/SC%20Creative%20Codeing/SC%20Assessment/50_dqs4tv.jpg",
+        "type": "INSERT",
+        "hint":null,
+        "point": 5,
+        "user_input": "body{\n  Background-color:gray;\n}\n.circle{\n  width:50px;\n  Height:50px;\n  Border-radius:50px;\n  Background-color:white;\n  z-index:8;\n}\nimg{\n  width:100px;\n  Height:100px;\n  Top100px;\n  left:100px;\n  z-index:9;\n}\n.box{\n  width:50px;\n  Height:50px;\n  Background-color:purple;\n  z-index:7;\n}\n.b1{\n  Top:70px;\n  left:70px;\n}\n.b2{\n  top:70px;\n  left:180px;\n\n}\n.b3{\n  top:   px;\n  left:70px;\n}\n.b4{\n  top:180px;\n  left:180px;\n}\n.c1{\n  top:70px;\n  left:125px;\n}\n.c2{\n  top:125px;\n  left:   px;\n}\n.c3{\n  top:125px;\n  left:180 px;\n}\n.c4{\n  top:   px;\n  left:125px;\n}",
+        "tries": 0,
+        "title": "Complete the following code",
+        "snippet": "body{\n  Background-color:gray;\n}\n.circle{\n  width:50px;\n  Height:50px;\n  Border-radius:50px;\n  Background-color:white;\n  z-index:8;\n}\nimg{\n  width:100px;\n  Height:100px;\n  Top100px;\n  left:100px;\n  z-index:9;\n}\n.box{\n  width:50px;\n  Height:50px;\n  Background-color:purple;\n  z-index:7;\n}\n.b1{\n  Top:70px;\n  left:70px;\n}\n.b2{\n  top:70px;\n  left:180px;\n\n}\n.b3{\n  top:   px;\n  left:70px;\n}\n.b4{\n  top:180px;\n  left:180px;\n}\n.c1{\n  top:70px;\n  left:125px;\n}\n.c2{\n  top:125px;\n  left:   px;\n}\n.c3{\n  top:125px;\n  left:180 px;\n}\n.c4{\n  top:   px;\n  left:125px;\n}",
+        "result": null,
+        "answer": [
+          "body{Background-color:gray;}.circle{width:50px;Height:50px;Border-radius:50px;Background-color:white;z-index:9;}img{width:100px;Height:100px;Top100px;left:100px;z-index:8;}.box{width:50px;Height:50px;Background-color:purple;z-index:7;}.b1{Top:70px;left:70px;}.b2{top:70px;left:180px;}.b3{top:180px;left:70px;}.b4{top:180px;left:180px;}.c1{top:70px;left:125px;}.c2{top:125px;left:70px;}.c3{top:125px;left:180px;}.c4{top:180px;left:125px;}"
+        ],
+        "completed": false
+      }
+    ]
+  }
 ]

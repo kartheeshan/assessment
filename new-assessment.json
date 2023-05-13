@@ -540,7 +540,7 @@
             "user_input": "",
             "option": null,
             "hint": null,
-            "answer": ".box{position:relative;}",
+            "answer": "relative",
             "result": null
           }
         ],
@@ -560,7 +560,7 @@
             "user_input": "",
             "option": null,
             "hint": null,
-            "answer": ".circle{position:absolute;}",
+            "answer": "absolute",
             "result": null
           }
         ],
@@ -693,7 +693,7 @@
         "type": "FILL",
         "questionSet": [
           {
-            "text": "position: __________ calculates the position from parent div, not the body. ",
+            "text": "Which calculates the position from parent div, not the body? ",
             "user_input": "",
             "result": null,
             "option": null,
@@ -929,7 +929,7 @@
             "user_input": "",
             "hint": null,
             "option": null,
-            "answer": ".b4{animation:move2 10s infinite}",
+            "answer": "animation:move2 10s infinite",
             "result": null
           }
         ],
